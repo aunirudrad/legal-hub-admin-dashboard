@@ -1,0 +1,135 @@
+{
+    "stats": {
+        "totalUsers": 34,
+        "activeCases": 78,
+        "openTasks": 12,
+        "monthlyRevenue": 12450
+    },
+    "recentCases": [
+        {
+            "id": "C-1001",
+            "title": "Property dispute - Ahmed vs. Rahman",
+            "status": "open",
+            "assignedTo": "Ayesha Khan",
+            "priority": "high"
+        },
+        {
+            "id": "C-1002",
+            "title": "Contract review - XYZ Ltd.",
+            "status": "in_progress",
+            "assignedTo": "Mr. Karim",
+            "priority": "medium"
+        },
+        {
+            "id": "C-1003",
+            "title": "Intellectual property - patent filing",
+            "status": "closed",
+            "assignedTo": "Ayesha Khan",
+            "priority": "low"
+        }
+    ],
+    "users": [
+        {
+            "id": "U-1",
+            "name": "Admin One",
+            "role": "admin",
+            "email": "admin1@legalhub.test"
+        },
+        {
+            "id": "U-2",
+            "name": "Ayesha Khan",
+            "role": "attorney",
+            "email": "ayesha@legalhub.test"
+        },
+        {
+            "id": "U-3",
+            "name": "Junior Paralegal",
+            "role": "staff",
+            "email": "paralegal@legalhub.test"
+        }
+    ],
+    "charts": {
+        "monthlyCases": [
+            {
+                "month": "Jan",
+                "cases": 8
+            },
+            {
+                "month": "Feb",
+                "cases": 12
+            },
+            {
+                "month": "Mar",
+                "cases": 15
+            },
+            {
+                "month": "Apr",
+                "cases": 11
+            },
+            {
+                "month": "May",
+                "cases": 18
+            },
+            {
+                "month": "Jun",
+                "cases": 14
+            },
+            {
+                "month": "Jul",
+                "cases": 19
+            },
+            {
+                "month": "Aug",
+                "cases": 23
+            },
+            {
+                "month": "Sep",
+                "cases": 20
+            },
+            {
+                "month": "Oct",
+                "cases": 17
+            },
+            {
+                "month": "Nov",
+                "cases": 21
+            },
+            {
+                "month": "Dec",
+                "cases": 24
+            }
+        ],
+        "statusDistribution": [
+            {
+                "name": "Open",
+                "value": 28
+            },
+            {
+                "name": "In Progress",
+                "value": 36
+            },
+            {
+                "name": "Closed",
+                "value": 14
+            }
+        ],
+        "attorneyWorkload": [
+            {
+                "name": "Ayesha Khan",
+                "cases": 21
+            },
+            {
+                "name": "Mr. Karim",
+                "cases": 16
+            },
+            {
+                "name": "Admin One",
+                "cases": 8
+            },
+            {
+                "name": "Junior Paralegal",
+                "cases": 6
+            }
+        ]
+    }
+}
